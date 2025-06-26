@@ -28,11 +28,13 @@
 
 ![图片加载失败](imgs/3.png)
 
-- 多账号请在 `COOKIES` 中 添加多个 `cookies` 中间使用 `&`连接即可。（例如： `c1&c3&c3...`）
+✅ 配置 Secrets（仓库右上角 → Settings → Secrets → Actions）
+添加如下三个密钥：
 
-3. 手机推送（非必须）
-
-- 添加1个`repository secret`，命名为`SENDKEY`，其值对应 PushDeer key: ([获取地址](https://www.pushdeer.com/product.html))。
+Secret 名称	值（示例）
+COOKIES	多个账号用 & 分隔的 Cookie 字符串
+TG_BOT_TOKEN	从 @BotFather 获取的 Bot Token
+TG_CHAT_ID	你的 Telegram Chat ID（可以是个人 ID 或群组 ID）
 
 ### **star**自己的仓库
 
